@@ -1,6 +1,6 @@
 # ebook_one
 
-A new Flutter project.
+Practicing flutter.
 
 ## Getting Started
 
