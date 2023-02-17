@@ -1,6 +1,7 @@
 import 'package:ebook_one/main.dart';
 import 'package:flutter/material.dart';
 import 'package:epub_view/epub_view.dart';
+import 'package:selectable/selectable.dart';
 
 class BookPage extends StatefulWidget {
   final int? index;
@@ -67,7 +68,6 @@ class _BookPageState extends State<BookPage> {
 
       // Show epub document
       body: EpubView(
-        
         controller: _epubController,
       ),
     );
